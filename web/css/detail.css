@@ -1,0 +1,387 @@
+.second-bk {
+	width: 100%;
+	height: 400px;
+	background-image: url(../images/background_img.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+.second-bk .movie-img {
+	border: 4px solid white;
+	position: absolute;
+	margin-left: 90px;
+	margin-top: 110px;
+}
+
+.second-bk .movie-img img {
+	width: 200px;
+	height: 300px;
+}
+
+.second-bk .movie-intro {
+	/* border: 1px solid white; */
+	width: 400px;
+	height: 120px;
+	position: absolute;
+	margin-left: 320px;
+	margin-top: 110px;
+}
+
+.second-bk .movie-intro h3 {
+	color: white;
+	font-size: 26px;
+	margin-top: 0px;
+	font-weight: 700px;
+	font-family: Microsoft YaHei, Helvetica, Arial, sans-serif;
+}
+
+.second-bk .movie-intro ul {
+	margin-top: 10px;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.second-bk .movie-intro ul li {
+	padding-bottom: 10px;
+}
+
+.second-bk .movie-btn {
+	position: absolute;
+	margin-left: 320px;
+	margin-top: 290px;
+}
+
+.second-bk .movie-btn button {
+	width: 110px;
+	height: 40px;
+	color: #fff;
+	font-size: 16px;
+	font-weight: bold;
+	line-height: 40px;
+	background-color: gray;
+	border: none;
+}
+
+.second-bk .movie-btn .buytick {
+	margin-top: 5px;
+	width: 224px;
+	background-color: red;
+}
+
+.third {
+	margin-left: 90px;
+	margin-top: 40px;
+}
+
+.tab-g {
+	border-bottom: 0;
+	height: 36px;
+}
+
+.tab-g li {
+	list-style: none;
+	font-size: 18px;
+	float: left;
+	height: 34px;
+	margin-right: 20px;
+	color: #909090;
+	line-height: 34px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.tab-g li.active-gn {
+	color: red;
+	border-bottom: 3px solid red;
+}
+
+.bottom .products {
+	width: 700px;
+}
+
+.bottom .products .main-gn {
+	display: none;
+}
+
+.bottom .products .main-gn .director,
+.bottom .products .main-gn .actor {
+	width: 800px;
+}
+
+.bottom .products .main-gn .director p,
+.bottom .products .main-gn .actor-intro p,
+.bottom .products .main-gn .actor-intro label {
+	text-align: center;
+}
+
+.bottom .products .main-gn .director,
+.bottom .products .main-gn .actor .actor-intro {
+	width: 150px;
+	padding-right: 15px;
+}
+
+.bottom .products .main-gn .actor .actor-intro {
+	float: left;
+}
+
+.bottom .products .main-gn .director img,
+.bottom .products .main-gn .actor-intro img {
+	height: 150px;
+	width: 150px;
+}
+
+.bottom .products .main-gn .actors img {
+	height: 200px;
+	width: 150px;
+	padding-right: 10px;
+}
+
+.bottom .products .main-gn h3,
+.fourth h3 {
+	clear: both;
+	border-left: 3px solid red;
+	font-size: 16px;
+	padding-left: 6px;
+}
+
+.bottom .products .main-gn.selected-gn {
+	display: block;
+}
+
+.h-inner {
+	float: right;
+	margin-right: 60px;
+	font-size: 14px;
+}
+
+.h-inner a {
+	color: grey;
+}
+
+.h-inner a:hover {
+	color: red;
+}
+.want{
+	background-color: #FF1493;
+}
+.write-com {
+	display: block;
+	width: 60px;
+	height: 23px;
+	float: right;
+	margin-right: 60px;
+	text-align: center;
+	line-height: 23px;
+	border: 2px red solid;
+	border-radius: 7px;
+	font-size: 16px;
+	color: red;
+	font-weight: normal;
+}
+
+.comments {
+	width: 650px;
+	position: relative;
+}
+
+.comments .comment {
+	width: 650px;
+	position: relative;
+}
+
+.comments .comment .com-top {
+	width: 650px;
+	height: 180px;
+}
+
+.comments .comment .com-top .user-img img {
+	width: 50px;
+	height: 50px;
+}
+
+.comments .comment .com-top .user-info {
+	position: absolute;
+	left: 60px;
+	top: 8px;
+}
+
+.comments .comment .com-top .user-info .com-time {
+	color: gray;
+}
+
+.comments .comment .com-text {
+	margin-left: 50px;
+	margin-top: 10px;
+}
+
+.zan {
+	height: 50px;
+	position: absolute;
+	left: 510px;
+	top: 10px;
+}
+
+.zan .like {
+	font-size: 25px;
+	color: #ccc;
+	cursor: pointer;
+}
+
+.zan .likeCount {
+	font-size: 18px;
+	color: #999999;
+	position: absolute;
+	top: 6px;
+	left: 30px;
+}
+
+.zan .cs {
+	color: #f00;
+}
+
+/*.fourth {
+	position: absolute;
+	!* width: 300px; *!
+	height: 570px;
+	top: 520px;
+	right: 20px;
+}*/
+
+/*.fourth .about-movies {
+	width: 400px;
+}
+
+.fourth .about-movies .about-movie {
+	width: 150px;
+	float: left;
+	padding: 10px;
+}
+
+.fourth .about-movies .about-movie img {
+	width: 150px;
+	height: 200px;
+}
+
+.fourth .about-movies .about-movie a {
+	display: block;
+	text-align: center;
+	color: black;
+}
+
+.fourth .about-movies .about-movie a:hover {
+	text-decoration: underline;
+	color: red;
+}*/
+
+.write-com-div {
+	position: fixed;
+	display: none;
+	opacity: 1;
+	z-index: 10000;
+	left: 50%;
+	top: 50%;
+	margin-left: -285px;
+	margin-top: -235px;
+	background-color: white;
+	border: 5px solid rgba(0,0,0,.3);
+	width: 600px;
+	height: 500px;
+}
+
+.write-com-div .content {
+	margin-left: 85px;
+	margin-top: 30px;
+}
+
+.write-com-div .content .comm-con {
+	font-size: 16px;
+}
+
+#starRating .photo span {
+	position: relative;
+	display: inline-block;
+	width: 44px;
+	height: 42px;
+	overflow: hidden;
+	cursor: pointer;
+}
+
+#starRating .photo span:last-child {
+	margin-right: 0px;
+}
+
+#starRating .photo span .nohigh {
+	position: absolute;
+	width: 44px;
+	height: 42px;
+	top: 0;
+	left: 0;
+	background: url(../images/nohigh.png);
+}
+
+#starRating .photo span .high {
+	position: absolute;
+	width: 44px;
+	height: 42px;
+	top: 0;
+	left: 0;
+	background: url(../images/high.png);
+}
+
+#starRating .starNum {
+	font-size: 26px;
+	color: #ffc600;
+	margin-top: 30px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+#starRating .bottoms {
+	height: 54px;
+	text-align: center;
+	margin-top: 30px;
+	/* border-top: 1px solid #d8d8d8; */
+}
+
+#starRating .photo {
+	margin-top: 10px;
+	text-align: center;
+}
+
+#starRating .bottoms a {
+	margin-bottom: 0;
+}
+
+#starRating .bottoms .garyBtn {
+	margin-right: 57px !important;
+}
+
+#starRating .bottoms a {
+	width: 130px;
+	height: 35px;
+	line-height: 35px;
+	border-radius: 3px;
+	display: inline-block;
+	font-size: 16px;
+	transition: all 0.2s linear;
+	margin: 16px 0 22px;
+	text-align: center;
+	cursor: pointer;
+}
+
+.garyBtn {
+	margin-right: 60px !important;
+	background-color: #e1e1e1;
+	color: #999999;
+}
+
+.blueBtn {
+	background-color: #1968b1;
+	color: #fff;
+}
+
+.blueBtn:hover {
+	background: #0e73d0;
+}

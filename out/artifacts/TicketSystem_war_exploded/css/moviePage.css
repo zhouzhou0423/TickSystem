@@ -1,0 +1,45 @@
+.list-film ul{
+	display: block;
+	width: 920px;
+	margin-top: 10px;
+}
+.list-film ul li{
+	float: left;
+	height: 280px;
+	margin-left: 25px;
+	position: relative;
+}
+.list-film ul li img{
+	width:150px;
+	height: 200px;
+}
+.list-film ul li span{
+	display: block;
+	width: 149px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+}
+.list-film ul li .buy{
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	margin-top: -3px;
+}
+.list-film ul li .name{
+	text-align: left;
+	color: white;
+	position: absolute;
+	top: 165px;
+	left: 0px;
+	font-size: 18px;
+	background-color:#000000;
+    background-color:rgba(0,0,0,0.3);
+}
+.list-film ul li .buy a{
+	text-decoration: none;
+	color: red;
+	font-size: 18px;
+}
+.list-film ul li .buy a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,148 @@
+package vo;
+
+public class ArrangedInfo {
+    private int arrangeid;
+    private int movieid;
+    private int cinemaid;
+    private String starttime;
+    private String endtime;
+    private int roomid;
+    private double movieprice;
+    private String ondate;
+    private String moviename;
+    private int sumsit;
+    private int salesit;
+    private int timelimit;
+
+    public int getTimelimit() {
+        return timelimit;
+    }
+
+    public void setTimelimit(int timelimit) {
+        this.timelimit = timelimit;
+    }
+
+    public String getMoviename() {
+        return moviename;
+    }
+
+    public void setMoviename(String moviename) {
+        this.moviename = moviename;
+    }
+
+    public int getSumsit() {
+        return sumsit;
+    }
+
+    public void setSumsit(int sumsit) {
+        this.sumsit = sumsit;
+    }
+
+    public int getSalesit() {
+        return salesit;
+    }
+
+    public void setSalesit(int salesit) {
+        this.salesit = salesit;
+    }
+
+    public int getArrangeid() {
+        return arrangeid;
+    }
+
+    public void setArrangeid(int arrangeid) {
+        this.arrangeid = arrangeid;
+    }
+
+    public int getMovieid() {
+        return movieid;
+    }
+
+    public void setMovieid(int movieid) {
+        this.movieid = movieid;
+    }
+
+    public int getCinemaid() {
+        return cinemaid;
+    }
+
+    public void setCinemaid(int cinemaid) {
+        this.cinemaid = cinemaid;
+    }
+
+    public String getStarttime() {
+        return starttime;
+    }
+
+    public void setStarttime(String starttime) {
+        this.starttime = starttime;
+    }
+
+    public String getEndtime() {
+        return endtime;
+    }
+
+    public void setEndtime(String endtime) {
+        this.endtime = endtime;
+    }
+
+    public int getRoomid() {
+        return roomid;
+    }
+
+    public void setRoomid(int roomid) {
+        this.roomid = roomid;
+    }
+
+    public double getMovieprice() {
+        return movieprice;
+    }
+
+    public void setMovieprice(double movieprice) {
+        this.movieprice = movieprice;
+    }
+
+    public String getOndate() {
+        return ondate;
+    }
+
+    public void setOndate(String ondate) {
+        this.ondate = ondate;
+    }
+
+    public ArrangedInfo(int arrangeid, int movieid, int cinemaid, String starttime, String endtime, int roomid, double movieprice, String ondate, String moviename, int sumsit, int salesit, int timelimit) {
+        this.arrangeid = arrangeid;
+        this.movieid = movieid;
+        this.cinemaid = cinemaid;
+        this.starttime = starttime;
+        this.endtime = endtime;
+        this.roomid = roomid;
+        this.movieprice = movieprice;
+        this.ondate = ondate;
+        this.moviename = moviename;
+        this.sumsit = sumsit;
+        this.salesit = salesit;
+        this.timelimit = timelimit;
+    }
+
+    public ArrangedInfo() {
+    }
+
+    @Override
+    public String toString() {
+        return "ArrangedInfo{" +
+                "arrangeid=" + arrangeid +
+                ", movieid=" + movieid +
+                ", cinemaid=" + cinemaid +
+                ", starttime='" + starttime + '\'' +
+                ", endtime='" + endtime + '\'' +
+                ", roomid=" + roomid +
+                ", movieprice=" + movieprice +
+                ", ondate='" + ondate + '\'' +
+                ", moviename='" + moviename + '\'' +
+                ", sumsit=" + sumsit +
+                ", salesit=" + salesit +
+                ", timelimit=" + timelimit +
+                '}';
+    }
+}

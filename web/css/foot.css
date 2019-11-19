@@ -1,0 +1,20 @@
+.foot{
+	font-size: 14px;
+	width: 100%;
+	text-align: center;
+	color: black;
+	float: left;
+	background-color: white;
+	border-top: 1px black gray;
+}
+.foot .foot-inner{
+	margin-top: 20px;
+}
+.foot a{
+		color: black;
+		margin:0 28px;
+		text-decoration: none;
+}
+.foot a:hover{
+	color: #FF6A00;
+}

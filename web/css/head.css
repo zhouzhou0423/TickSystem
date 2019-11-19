@@ -1,0 +1,124 @@
+body{
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.top{
+	background-color:white ;
+}
+.hotmovies,.upcoming{
+	width:100%;
+	height: 620px;
+	/* border: 1px red solid; */
+	background-color:white ;
+	overflow: hidden;
+}
+.hotmovies .all,.upcoming .all{
+	margin-top: 20px;
+	float: left;
+	margin-bottom: 20px;
+}
+.hotmovies .all label,.upcoming .all label{
+	color: red;
+	font-size: 30px;
+	margin-left: 150px;
+	margin-top: 20px;
+}
+.hotmovies .all a,.upcoming .all a{
+	margin-left: 510px;
+	font-size: 16px;
+	color: red;
+	text-decoration: none;
+}
+.movies{
+	margin-left: 125px;
+	margin-top: 25px;
+	width: 840px;
+	height: 500px;
+}
+.movies ul{
+	display: block;
+	width: 720px;
+	/*height: 500px;*/
+}
+.movies ul li{
+	float: left;
+	height: 280px;
+	margin-left: 25px;
+	position: relative;
+}
+.movies ul li img{
+	width:150px;
+	height: 200px;
+}
+.movies ul li span{
+	display: block;
+	width: 149px;
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+}
+.movies ul li .buy{
+	border: 1px solid #CCCCCC;
+	text-align: center;
+	margin-top: -3px;
+}
+.movies ul li .name{
+	text-align: left;
+	color: white;
+	position: absolute;
+	top: 165px;
+	left: 0px;
+	font-size: 18px;
+	background-color:#000000;
+    background-color:rgba(0,0,0,0.3);
+}
+.movies ul li .buy a{
+	text-decoration: none;
+	color: red;
+	font-size: 18px;
+}
+.movies ul li .buy a:hover{
+	text-decoration: underline;
+}
+.top-one{
+	width: 300px;
+	height: 570px;
+	position: absolute;
+	top: 600px;
+	right: 50px;
+}
+.top-two{
+	width: 300px;
+	height: 570px;
+	position: absolute;
+	top: 1220px;
+	right: 50px;
+}
+.top-one .title,.top-two .title{
+	font-size: 30px;
+	color: #FFB401;
+}
+.top-one .order ul li,.top-two .order ul li{
+	font-size: 20px;
+	margin-bottom: 25px;
+	margin-top: 8px;
+	margin-left: 10px;
+	display: block;
+}
+.top-one .order ul li .num,.top-two .order ul li .num{
+	display: block;
+	width:25px;
+	float: left;
+	font-style: italic;
+}
+.top-one .order ul li .totalnum,.top-two .order ul li .totalnum{
+	display: block;
+	float: right;
+	margin-right: 32px;
+	color: red;
+}

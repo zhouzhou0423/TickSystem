@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" defaultCharsetForPropertiesFiles="GBK" addBOMForNewFiles="with NO BOM">
+    <file url="file://$PROJECT_DIR$/src/c3p0-config.xml" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/controller" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/controller/UserController.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/ActorInfoDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/AdmInfoDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/CinemaInfoDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/CommentsInfoDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/ManageDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/MovieInfoDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/UserInfoDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/impl/ActorInfoDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/impl/AdmInfoDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/impl/CinemaInfoDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/impl/CommentsInfoDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/impl/ManageDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/impl/MovieInfoDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/dao/impl/UserInfoDaoImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/ActorInfoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/AdmInfoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/CinemaInfoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/CommentsInfoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/ManageService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/MovieInfoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/UserInfoService.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/impl/ActorInfoServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/impl/AdmInfoServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/impl/CinemaInfoServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/impl/CommentsInfoServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/impl/ManageServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/impl/MovieInfoServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/service/impl/UserInfoServiceImpl.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/BaseDao.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/util/DButil.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/AdmInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/ArrangedInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/CinemaInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/CommentsInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/MovieInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/MovieTypeInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/RoleInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/src/vo/UserInfo.java" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/c3p0-0.9.1.2.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/commons-dbutils-1.7.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/jstl.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/log4j-1.2.16.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/mysql-connector-java-5.1.39-bin.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/standard.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/WEB-INF/lib/tomcat-dbcp.jar" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/css" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/detail.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/filmPage.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/foot.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/head.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/image.jsp" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/images" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/js" charset="GBK" />
+    <file url="file://$PROJECT_DIR$/web/login.jsp" charset="GBK" />
+    <file url="PROJECT" charset="GBK" />
+  </component>
+</project>

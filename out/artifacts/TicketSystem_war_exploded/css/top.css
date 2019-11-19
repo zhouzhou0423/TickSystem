@@ -1,0 +1,82 @@
+body{
+	margin: 0;
+}
+ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.search {
+	padding: auto 2px;
+	margin-top: 41px;
+	width: 60px;
+	border: none;
+	background-color:white ;
+}
+.header{
+    /* position: fixed; */
+	top: 0;
+	width: 100%;
+	min-width: 1200px;
+	background-color: white;
+	border-bottom: 1px solid #CCCCCC;
+}
+.header .header-inner{
+	width: 1200px;
+	margin: 0 auto;
+	height: 72px;
+}
+.header-inner .logo{
+	width: 120px;
+	float: left;
+	height: 70px;
+	margin-left: 40px;
+	background-image: url(../images/logo.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.header-inner .p{
+	float: left;
+	width: 20px;
+	height: 24px;
+	margin-top: 41px;
+	background-image: url(../images/position.png);
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.header-inner .city{
+	float: left;
+	margin-top: 5px;
+}
+	
+.header .header-inner .find{
+	margin-left: 100px;
+	border: none;
+}
+.header .header-inner .find ul,.header .header-inner .user ul{
+	display: block;
+}
+.header .header-inner .find ul li a{
+	float: left;
+	width:80px;
+	font-size: 20px;
+	margin-top: 38px;
+	text-align: center;
+	color: black;
+}
+.header .header-inner .find ul li a:hover,.header .header-inner .user ul li a:hover{
+	color: red;
+	text-decoration: underline;
+}
+.header .header-inner .user{
+	float: right;
+	width: 200px;
+	margin-top: 44px;
+}
+.header .header-inner .user ul li a{
+	color: black;
+	font-size: 14px;
+	float: left;
+	margin: auto 5px;
+}
